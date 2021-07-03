@@ -1,0 +1,182 @@
+{
+  "seed":12345,
+  "armies":[
+    {
+      "name":"Humans",
+      "squads": [
+        {
+          "strategy":"random",
+          "units": [
+              {
+                "unit": "soldier",
+                "recharge": 100
+              },
+              {
+                "unit": "soldier",
+                "recharge": 200
+              },
+              {
+                "unit": "soldier",
+                "recharge": 300
+              },
+              {
+                "unit": "soldier",
+                "recharge": 400
+              },
+              {
+                "unit": "soldier",
+                "recharge": 500
+              }
+            ]
+        },
+        {
+          "strategy":"random",
+          "units": [
+              {
+                "unit": "soldier",
+                "recharge": 100
+              },
+              {
+                "unit": "soldier",
+                "recharge": 100
+              },
+              {
+                "unit": "vehicle",
+                "recharge": 1000,
+                "operators": 3
+              },
+              {
+                "unit": "vehicle",
+                "recharge": 1200,
+                "operators": 2
+              },
+              {
+                "unit": "vehicle",
+                "recharge": 1100,
+                "operators": 1
+              }
+            ]
+        }
+      ]
+    },
+    {
+      "name":"Orcs",
+      "squads": [
+        {
+          "strategy":"random",
+          "units": [
+              {
+                "unit": "vehicle",
+                "recharge": 1100,
+                "operators": 2
+              },
+              {
+                "unit": "vehicle",
+                "recharge": 1200,
+                "operators": 2
+              },
+              {
+                "unit": "soldier",
+                "recharge": 100
+              },
+              {
+                "unit": "soldier",
+                "recharge": 100
+              },
+              {
+                "unit": "soldier",
+                "recharge": 100
+              }
+            ]
+        },
+        {
+          "strategy":"random",
+          "units": [
+              {
+                "unit": "soldier",
+                "recharge": 100
+              },
+              {
+                "unit": "vehicle",
+                "recharge": 2000,
+                "operators": 3
+              },
+              {
+                "unit": "vehicle",
+                "recharge": 1500,
+                "operators": 3
+              },
+              {
+                "unit": "vehicle",
+                "recharge": 1700,
+                "operators": 1
+              },
+              {
+                "unit": "vehicle",
+                "recharge": 1100,
+                "operators": 1
+              }
+            ]
+        }
+      ]
+    },
+    {
+      "name":"Undead",
+      "squads": [
+        {
+          "strategy":"strongest",
+          "units": [
+              {
+                "unit": "soldier",
+                "recharge": 2000
+              },
+              {
+                "unit": "soldier",
+                "recharge": 2000
+              },
+              {
+                "unit": "vehicle",
+                "recharge": 1500,
+                "operators": 3
+              },
+              {
+                "unit": "soldier",
+                "recharge": 1400
+              },
+              {
+                "unit": "soldier",
+                "recharge": 1500
+              }
+            ]
+        },
+        {
+          "strategy":"strongest",
+          "units": [
+              {
+                "unit": "soldier",
+                "recharge": 1000
+              },
+              {
+                "unit": "soldier",
+                "recharge": 2000
+              },
+              {
+                "unit": "soldier",
+                "recharge": 1500
+              },
+              {
+                "unit": "vehicle",
+                "recharge": 1200,
+                "operators": 2
+              },
+              {
+                "unit": "vehicle",
+                "recharge": 1800,
+                "operators": 1
+              }
+            ]
+        }
+      ]
+    }
+  ]
+}
